@@ -46,6 +46,13 @@ body {
     background-color: #10151B;
 }
 
+/* bottom box */
+.bottom-box {
+
+    height: calc(100% - 90px);
+    background-color: #151922;
+}
+
 /** right-box **/
 .right-box {
 
