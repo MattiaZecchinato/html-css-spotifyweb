@@ -153,6 +153,8 @@ responsive
 
         width: 230px;
         padding: 15px 10px;
+        display: flex;
+        flex-direction: column;
     }
 
     /* logo */
@@ -185,7 +187,10 @@ responsive
     /* playlist */
     .box {
 
-        display: block;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .playlist-box h4 {
