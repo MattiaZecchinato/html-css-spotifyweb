@@ -45,6 +45,14 @@ body {
     width: 55px;
     height: 100%;
     background-color: #000000;
+    padding: 10px 15px 20px;
+}
+
+/** right-box **/
+.right-box {
+
+    width: calc(100% - 55px);
+    height: 100%;
 }
 
 /* top box */
@@ -59,13 +67,6 @@ body {
 
     height: calc(100% - 90px);
     background-color: #151922;
-}
-
-/** right-box **/
-.right-box {
-
-    width: calc(100% - 55px);
-    height: 100%;
 }
 
 /*** bottom page ***/
