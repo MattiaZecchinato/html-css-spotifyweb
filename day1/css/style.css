@@ -102,12 +102,12 @@ responsive
     }
 
     /* logo */
-    .logo img:first-child {
+    .logo a:first-child {
 
         display: none;
     }
 
-    .logo img:last-child {
+    .logo a:last-child {
 
         display: block;
     }
