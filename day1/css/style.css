@@ -129,6 +129,11 @@ responsive
     }
 
     /* logo */
+    .logo {
+
+        margin-bottom: 30px;
+    }
+    
     .logo a:first-child {
 
         display: none;
