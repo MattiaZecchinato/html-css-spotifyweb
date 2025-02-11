@@ -77,6 +77,11 @@ body {
 }
 
 /* main nav */
+.main-nav {
+
+    margin-bottom: 40px;
+}
+
 .box-icon-nav {
 
     display: flex;
