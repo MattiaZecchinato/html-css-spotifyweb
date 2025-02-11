@@ -56,7 +56,7 @@ body {
 
 /* logo */
 
-.logo {
+.logo-box {
 
     margin-bottom: 20px;
 }
@@ -65,7 +65,6 @@ body {
 .box-icon-nav {
 
     display: flex;
-    gap: 10px;
     align-items: center;
     padding-bottom: 10px;
 }
@@ -129,22 +128,27 @@ responsive
     }
 
     /* logo */
-    .logo {
+    .logo-box {
 
         margin-bottom: 30px;
     }
-    
-    .logo a:first-child {
+
+    .logo-box a:first-child {
 
         display: none;
     }
 
-    .logo a:last-child {
+    .logo-box a:last-child {
 
         display: block;
     }
 
     /* main nav */
+    .box-icon-nav {
+
+        gap: 10px;
+    }
+
     .box-icon-nav a img {
 
         width: 25px;
