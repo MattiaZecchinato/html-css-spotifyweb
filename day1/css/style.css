@@ -18,6 +18,12 @@ reset
 /******* 
 common 
 *******/
+a {
+
+    text-decoration: none;
+    color: #989898;
+}
+
 .hidden-element {
 
     display: none;
@@ -59,6 +65,8 @@ body {
 .box-icon-nav {
 
     display: flex;
+    gap: 10px;
+    align-items: center;
     padding-bottom: 10px;
 }
 
@@ -127,6 +135,17 @@ responsive
     }
 
     .logo a:last-child {
+
+        display: block;
+    }
+
+    /* main nav */
+    .box-icon-nav a img {
+
+        width: 25px;
+    }
+
+    .box-icon-nav .hidden-element {
 
         display: block;
     }
