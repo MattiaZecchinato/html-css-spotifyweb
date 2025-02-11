@@ -38,6 +38,13 @@ body {
     background-color: #000000;
 }
 
+/* right-box */
+.right-box {
+
+    width: calc(100% - 55px);
+    height: 100%;
+}
+
 /*** bottom page ***/
 .bottom-page {
 
