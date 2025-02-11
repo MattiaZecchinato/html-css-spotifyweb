@@ -91,6 +91,12 @@ responsive
         width: 230px;
     }
 
+    /** right box **/
+    .right-box {
+
+        width: calc(100% - 230px);
+    }
+
     /*** bottom page ***/
     .bottom-page {
 
