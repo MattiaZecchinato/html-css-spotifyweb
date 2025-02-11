@@ -62,6 +62,8 @@ body {
     height: 100%;
     background-color: #000000;
     padding: 10px 15px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-box * {
@@ -94,6 +96,22 @@ body {
     width: 100%;
 }
 
+/* playlist */
+.box {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* user */
+.user-link-box {
+
+    background-color: #666666;
+    border-radius: 50%;
+}
+
 /** right-box **/
 .right-box {
 
@@ -121,7 +139,6 @@ body {
     background-color: #282828;
     height: 90px;
 }
-
 /******* 
 responsive 
 *******/
@@ -146,6 +163,11 @@ responsive
     .download-box a {
 
         width: 15%;
+    }
+
+    .hidden-element {
+
+        display: block;
     }
 
     /*** top page ***/
@@ -183,19 +205,11 @@ responsive
     .box-icon-nav {
 
         gap: 10px;
-    }
-
-    .box-icon-nav .hidden-element {
-
-        display: block;
-    }
+    }  
 
     /* playlist */
     .box {
 
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -212,7 +226,7 @@ responsive
 
     .creation-playlist-box a {
 
-        padding: 15px;
+        padding: 15px 18px;
         background-color: #989898;
     }
 
@@ -234,8 +248,6 @@ responsive
 
     .user-link-box {
 
-        background-color: #666666;
-        border-radius: 50%;
         width: 15%;
         padding-left: 5px;
     }
@@ -245,7 +257,6 @@ responsive
         width: 80%;
         margin: 0 auto;
     }
-
 
     /** right box **/
     .right-box {
