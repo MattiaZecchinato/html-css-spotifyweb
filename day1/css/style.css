@@ -85,6 +85,12 @@ responsive
         height: calc(100% - 85px);
     }
 
+    /** left box **/
+    .left-box {
+
+        width: 230px;
+    }
+
     /*** bottom page ***/
     .bottom-page {
 
