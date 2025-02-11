@@ -15,6 +15,14 @@ reset
     box-sizing: border-box;
 }
 
+/******* 
+body 
+*******/
+body {
+
+    height: 100vh;
+}
+
 /*** bottom page ***/
 .bottom-page {
 
