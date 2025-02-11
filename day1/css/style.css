@@ -21,12 +21,16 @@ common
 a {
 
     text-decoration: none;
-    color: #989898;
 }
 
 .hidden-element {
 
     display: none;
+}
+
+.text-uppercase {
+
+    text-transform: uppercase;
 }
 
 /******* 
@@ -54,6 +58,11 @@ body {
     padding: 10px 15px 20px;
 }
 
+.left-box * {
+
+    color: #989898;
+}
+
 /* logo */
 
 .logo-box {
@@ -72,6 +81,41 @@ body {
 .box-icon-nav img {
 
     width: 100%;
+}
+
+/* playlist */
+.creation-playlist-box {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.playlist-box h4 {
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.creation-playlist-box {
+
+    margin-bottom: 30px;
+}
+
+.creation-playlist-box a {
+
+    padding: 15px;
+    background-color: #989898;
+}
+
+.creation-playlist-box a i {
+
+    color: #000000;
+}
+
+.playlist-box li {
+
+    margin-bottom: 20px;
 }
 
 /** right-box **/
