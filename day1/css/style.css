@@ -79,6 +79,12 @@ responsive
 /* desktop size */
 @media screen and (min-width: 992px) {
     
+    /*** top page ***/
+    .top-page {
+
+        height: calc(100% - 85px);
+    }
+
     /*** bottom page ***/
     .bottom-page {
 
