@@ -23,6 +23,11 @@ a {
     text-decoration: none;
 }
 
+ul {
+
+    list-style-type: none;
+}
+
 .hidden-element {
 
     display: none;
@@ -83,41 +88,6 @@ body {
     width: 100%;
 }
 
-/* playlist */
-.creation-playlist-box {
-
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.playlist-box h4 {
-
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-
-.creation-playlist-box {
-
-    margin-bottom: 30px;
-}
-
-.creation-playlist-box a {
-
-    padding: 15px;
-    background-color: #989898;
-}
-
-.creation-playlist-box a i {
-
-    color: #000000;
-}
-
-.playlist-box li {
-
-    margin-bottom: 20px;
-}
-
 /** right-box **/
 .right-box {
 
@@ -157,7 +127,21 @@ responsive
 
 /* desktop size */
 @media screen and (min-width: 992px) {
-    
+
+    /* common */
+    .ico-text {
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .box-icon-nav a,
+    .download-box a {
+
+        width: 15%;
+    }
+
     /*** top page ***/
     .top-page {
 
@@ -193,15 +177,64 @@ responsive
         gap: 10px;
     }
 
-    .box-icon-nav a img {
-
-        width: 25px;
-    }
-
     .box-icon-nav .hidden-element {
 
         display: block;
     }
+
+    /* playlist */
+    .box {
+
+        display: block;
+    }
+
+    .playlist-box h4 {
+
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .creation-playlist-box {
+
+        margin-bottom: 30px;
+    }
+
+    .creation-playlist-box a {
+
+        padding: 15px;
+        background-color: #989898;
+    }
+
+    .creation-playlist-box a i {
+
+        color: #000000;
+    }
+
+    .playlist-box li {
+
+        margin-bottom: 20px;
+    }
+
+    /* user */
+    .user-box {
+
+        margin-top: 10px;
+    }
+
+    .user-link-box {
+
+        background-color: #666666;
+        border-radius: 50%;
+        width: 15%;
+        padding-left: 5px;
+    }
+
+    .user-link-box img {
+
+        width: 80%;
+        margin: 0 auto;
+    }
+
 
     /** right box **/
     .right-box {
