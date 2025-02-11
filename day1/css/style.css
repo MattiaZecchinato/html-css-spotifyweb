@@ -16,6 +16,14 @@ reset
 }
 
 /******* 
+common 
+*******/
+.hidden-element {
+
+    display: none;
+}
+
+/******* 
 body 
 *******/
 body {
