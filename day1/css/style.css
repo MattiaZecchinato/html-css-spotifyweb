@@ -15,6 +15,13 @@ reset
     box-sizing: border-box;
 }
 
+/*** bottom page ***/
+.bottom-page {
+
+    background-color: #282828;
+    height: 90px;
+}
+
 /******* 
 responsive 
 *******/
