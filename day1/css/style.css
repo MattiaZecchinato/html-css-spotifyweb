@@ -23,6 +23,13 @@ body {
     height: 100vh;
 }
 
+/*** top page ***/
+.top-page {
+
+    background-color: #ffffff;
+    height: calc(100% - 90px);
+}
+
 /*** bottom page ***/
 .bottom-page {
 
