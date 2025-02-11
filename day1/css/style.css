@@ -28,6 +28,7 @@ body {
 
     background-color: #ffffff;
     height: calc(100% - 90px);
+    display: flex;
 }
 
 /* left-box */
