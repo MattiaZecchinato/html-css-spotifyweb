@@ -30,6 +30,14 @@ body {
     height: calc(100% - 90px);
 }
 
+/* left-box */
+.left-box {
+
+    width: 55px;
+    height: 100%;
+    background-color: #000000;
+}
+
 /*** bottom page ***/
 .bottom-page {
 
