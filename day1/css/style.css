@@ -31,7 +31,7 @@ body {
     display: flex;
 }
 
-/* left-box */
+/** left-box **/
 .left-box {
 
     width: 55px;
@@ -39,7 +39,14 @@ body {
     background-color: #000000;
 }
 
-/* right-box */
+/* top box */
+.top-box {
+
+    height: 90px;
+    background-color: #10151B;
+}
+
+/** right-box **/
 .right-box {
 
     width: calc(100% - 55px);
