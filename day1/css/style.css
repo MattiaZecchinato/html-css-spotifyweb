@@ -48,6 +48,18 @@ body {
     padding: 10px 15px 20px;
 }
 
+/* main nav */
+.box-icon-nav {
+
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.box-icon-nav img {
+
+    width: 100%;
+}
+
 /** right-box **/
 .right-box {
 
