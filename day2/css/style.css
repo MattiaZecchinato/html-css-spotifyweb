@@ -5,6 +5,8 @@ font
 
 /* font-family: "Montserrat", serif; */
 
+/* to color svg image --> https://codepen.io/sosuke/pen/Pjoqqp */
+
 /******* 
 reset 
 *******/
@@ -13,6 +15,7 @@ reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 /******* 
@@ -47,11 +50,6 @@ h2 {
 .text-uppercase {
 
     text-transform: uppercase;
-}
-
-.text-bold {
-
-    font-weight: bold;
 }
 
 /* collection */
@@ -117,7 +115,7 @@ body {
     height: 100%;
     flex-shrink: 0;
     background-color: #000000;
-    padding: 10px 15px 20px;
+    padding: 5px 15px 10px;
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -146,6 +144,12 @@ body {
 .box-icon-nav img {
 
     width: 100%;
+    filter: invert(44%) sepia(0%) saturate(1344%) hue-rotate(265deg) brightness(97%) contrast(78%);
+}
+
+.box-icon-nav span {
+
+    font-size: 0.75rem;
 }
 
 /* playlist */
@@ -157,7 +161,39 @@ body {
     justify-content: flex-end;
 }
 
+.playlist-box p,
+.playlist-box ul a {
+
+    font-size: 0.75rem;
+}
+
 /* user */
+.user-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download-box {
+
+    margin-bottom: 10px;
+}
+
+.download-box img,
+.download-box a {
+
+    width: 15px;
+    height: 15px;
+}
+
+.user-box img,
+.user-box a {
+
+    width: 25px;
+    height: 25px;
+}
+
 .user-box img {
 
     background-color: #666666;
@@ -242,10 +278,9 @@ responsive
         gap: 10px;
     }
 
-    .box-icon-nav a,
-    .download-box a {
+    .box-icon-nav img {
 
-        width: 15%;
+        width: 25px;
     }
 
     .left-box .hidden-element {
@@ -280,10 +315,15 @@ responsive
         display: block;
     }
 
+    .logo-box a:last-child img {
+
+        width: 130px;
+    }
+
     /* main nav */
     .main-nav {
 
-        margin-bottom: 40px;
+        margin-bottom: 15px;
     }
 
     .box-icon-nav {
@@ -310,13 +350,10 @@ responsive
 
     .creation-playlist-box a {
 
-        padding: 15px 18px;
+        padding: 0 10px;
         background-color: #989898;
-    }
-
-    .creation-playlist-box a i {
-
         color: #000000;
+        font-size: 2rem;
     }
 
     .playlist-box li {
@@ -325,14 +362,32 @@ responsive
     }
 
     /* user */
+    .user-container {
+
+        display: block;
+    }
+
+    .user-container p {
+
+        font-size: 0.7rem;
+    }
+
+    .download-box,
+    .user-box {
+
+        display: flex;
+        align-items: center;
+    }
+
     .user-box {
 
         margin-top: 10px;
     }
 
-    .user-box a {
+    .user-box p {
 
-        width: 15%;
+        color: #FFFFFF;
+        font-size: 0.75rem;
     }
 }
 
