@@ -60,6 +60,7 @@ body {
 
     width: 55px;
     height: 100%;
+    flex-shrink: 0;
     background-color: #000000;
     padding: 10px 15px 20px;
     display: flex;
@@ -110,7 +111,7 @@ body {
 /** right-box **/
 .right-box {
 
-    width: calc(100% - 55px);
+    flex-grow: 1;
     height: 100%;
 }
 
@@ -201,7 +202,7 @@ responsive
 
         margin-bottom: 40px;
     }
-    
+
     .box-icon-nav {
 
         gap: 10px;
@@ -259,10 +260,6 @@ responsive
     }
 
     /** right box **/
-    .right-box {
-
-        width: calc(100% - 230px);
-    }
 
     /*** bottom page ***/
     .bottom-page {
