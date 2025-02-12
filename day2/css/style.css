@@ -38,6 +38,11 @@ ul {
     text-transform: uppercase;
 }
 
+.text-bold {
+
+    font-weight: bold;
+}
+
 /******* 
 body 
 *******/
@@ -128,6 +133,23 @@ body {
 
     height: calc(100% - 90px);
     background-color: #151922;
+    padding: 20px;
+}
+
+/* nav bar */
+.nav-bar ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.nav-bar ul a {
+
+    color: #797C80;
+    font-size: 0.75rem;
 }
 
 /*** bottom page ***/
@@ -140,14 +162,9 @@ body {
 responsive 
 *******/
 
-/* tablet size */
-@media screen and (min-width: 768px) {
+/* small size */
+@media screen and (min-width: 576px) {
     
-}
-
-/* desktop size */
-@media screen and (min-width: 992px) {
-
     /* common */
     .ico-text {
 
@@ -168,10 +185,6 @@ responsive
     }
 
     /*** top page ***/
-    .top-page {
-
-        height: calc(100% - 85px);
-    }
 
     /** left box **/
     .left-box {
@@ -259,12 +272,15 @@ responsive
         width: 80%;
         margin: 0 auto;
     }
+}
 
-    /** right box **/
+/* medium size */
+@media screen and (min-width: 768px) {
+    
+}
 
-    /*** bottom page ***/
-    .bottom-page {
+/* large size */
+@media screen and (min-width: 992px) {
 
-        height: 85px;
-    }
+    
 }
