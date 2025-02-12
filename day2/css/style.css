@@ -69,6 +69,7 @@ h2 {
     align-items: center;
     gap: 10px;
     width: calc((100% - 10px) / 2);
+    text-align: center;
 }
 
 .album img {
@@ -158,7 +159,7 @@ body {
 .right-box {
 
     flex-grow: 1;
-    height: 100%;
+    display: flex;
     overflow: auto;
 }
 
@@ -318,10 +319,19 @@ responsive
 /* medium size */
 @media screen and (min-width: 768px) {
     
+    /* common */
+    .album {
+
+        width: calc((100% - 30px) / 4);
+    }
 }
 
 /* large size */
 @media screen and (min-width: 992px) {
 
-    
+    /* common */
+    .album {
+
+        width: calc((100% - 50px) / 6);
+    }
 }
