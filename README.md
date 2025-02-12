@@ -32,10 +32,18 @@ Questa applicazione web, riproduce il sito di [Spotify](https://open.spotify.com
 ## Features
 
 - Il sito è in responsive e si adatta ai seguenti dispositivi:
-    - mobile ![mobile size](readme-img/mobile-size-day-2.png)
-    - mobile xl (>=576px) ![mobile xl size](readme-img/mobile-xl-size-day-2.png)
-    - tablet (>=768px) ![tablet size](readme-img/tablet-size-day-2.png)
-    - desktop (>=992px) ![desktop size](readme-img/desktop-size-day-2.png)
+    - mobile
+
+      ![mobile size](readme-img/resize/mobile-size-day-2.png)
+    - mobile xl (>=576px)
+    
+      ![mobile xl size](readme-img/resize/mobile-xl-size-day-2.png)
+    - tablet (>=768px)
+    
+      ![tablet size](readme-img/resize/tablet-size-day-2.png)
+    - desktop (>=992px)
+    
+      ![desktop size](readme-img/desktop-size-day-2.png)
 
 
 ## Autori
