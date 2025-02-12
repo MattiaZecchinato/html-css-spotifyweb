@@ -36,7 +36,7 @@ h4 {
 
 h2 {
 
-    margin-bottom: 35px;
+    margin-bottom: 5px;
 }
 
 .hidden-element {
@@ -55,6 +55,16 @@ h2 {
 }
 
 /* collection */
+.collection-container {
+
+    margin-bottom: 45px;
+}
+
+.collection-container p {
+
+    color: #797C80;
+    font-size: 0.7rem;
+}
 .album-box {
 
     display: flex;
@@ -75,13 +85,7 @@ h2 {
 .album img {
 
     width: 100%;
-    margin-bottom: 10px;
-}
-
-.album p {
-
-    color: #797C80;
-    font-size: 0.7rem;
+    margin: 20px 0 10px;
 }
 
 /******* 
@@ -160,13 +164,16 @@ body {
 
     flex-grow: 1;
     display: flex;
+    flex-direction: column;
     overflow: auto;
+
 }
 
 /* top box */
 .top-box {
 
     height: 90px;
+    flex-shrink: 0;
     background-color: #10151B;
 }
 
@@ -221,7 +228,7 @@ responsive
         width: 15%;
     }
 
-    .hidden-element {
+    .left-box .hidden-element {
 
         display: block;
     }
