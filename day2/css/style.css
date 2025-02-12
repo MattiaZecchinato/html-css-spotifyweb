@@ -88,6 +88,11 @@ h2 {
     margin: 20px 0 10px;
 }
 
+.round-img img {
+
+    border-radius: 50%;
+}
+
 /******* 
 body 
 *******/
