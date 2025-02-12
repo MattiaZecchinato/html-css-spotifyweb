@@ -244,6 +244,7 @@ body {
     padding-right: 10px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .top-box a {
@@ -277,6 +278,33 @@ body {
 
     color: #797C80;
     font-size: 0.75rem;
+}
+
+/* collection */
+.img-box {
+
+    position: relative;
+}
+
+.img-box i {
+
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.img-box:hover > img {
+
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.img-box:hover i.hidden-element {
+
+    display: block;
 }
 
 /*** bottom page ***/
