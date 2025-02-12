@@ -159,6 +159,7 @@ body {
 
     flex-grow: 1;
     height: 100%;
+    overflow: auto;
 }
 
 /* top box */
@@ -171,7 +172,7 @@ body {
 /* bottom box */
 .bottom-box {
 
-    height: calc(100% - 90px);
+    flex-grow: 1;
     background-color: #151922;
     padding: 20px;
 }
