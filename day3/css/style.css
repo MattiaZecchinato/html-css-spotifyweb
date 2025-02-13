@@ -92,6 +92,107 @@ h2 {
 }
 
 /******* 
+hover 
+*******/
+
+/*** top page ***/
+
+/** left box **/
+/* main nav */
+.box-icon-nav:hover {
+
+    box-shadow: 2px 0px 0px green inset;
+    transition: 0.3s;
+}
+
+.box-icon-nav:hover span {
+
+    color: #FFFFFF;
+}
+
+.box-icon-nav:hover img {
+
+    filter: none;
+}
+
+/* playlist */
+.playlist-box li a:hover {
+
+    color: #FFFFFF;
+}
+
+.creation-playlist-box:hover a:first-child {
+
+    background-color: #FFFFFF;
+}
+.creation-playlist-box:hover p {
+
+    color: #FFFFFF;
+}
+
+/* user */
+.download-box:hover img {
+
+    filter: none;
+}
+
+.download-box:hover p {
+
+    color: #FFFFFF;
+}
+
+/** right box **/ 
+
+/* top box */
+.top-box a:hover {
+
+    transform: scale(1.1,1.1);
+}
+
+/* bottom box */
+/* nav bar */
+.nav-bar ul a:hover {
+
+    color: white;
+}
+
+/* collection */
+.img-box:hover > img {
+
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.img-box:hover i.hidden-element {
+
+    display: block;
+}
+
+/*** bottom page ***/
+.bottom-page i:hover {
+
+    cursor: pointer;
+}
+
+/* button song */
+.name-song p:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* control button box */
+.control-btn-box :nth-child(3):hover {
+
+    transform: scale(1.1,1.1);
+}
+
+.btn-song i:hover {
+
+    color: #FFFFFF;
+}
+
+/******* 
 body 
 *******/
 body {
@@ -168,12 +269,6 @@ body {
     font-size: 0.75rem;
 }
 
-.box-icon-nav:hover {
-
-    box-shadow: 2px 0px 0px green inset;
-    transition: 0.3s;
-}
-
 /* playlist */
 .box {
 
@@ -203,10 +298,15 @@ body {
 }
 
 .download-box img,
-.download-box a {
+.download-box a:first-child {
 
     width: 15px;
     height: 15px;
+}
+
+.download-box img {
+
+    filter: invert(68%) sepia(18%) saturate(6%) hue-rotate(353deg) brightness(86%) contrast(86%);
 }
 
 .user-box img,
@@ -294,17 +394,6 @@ body {
     top: 50%;  
     left: 50%; 
     transform: translate(-50%, -50%);
-}
-
-.img-box:hover > img {
-
-    opacity: 0.5;
-    transition: 0.3s;
-}
-
-.img-box:hover i.hidden-element {
-
-    display: block;
 }
 
 /*** bottom page ***/
@@ -536,7 +625,7 @@ responsive
         margin-bottom: 30px;
     }
 
-    .creation-playlist-box a {
+    .creation-playlist-box a:first-child {
 
         padding: 0 10px;
         background-color: #989898;
