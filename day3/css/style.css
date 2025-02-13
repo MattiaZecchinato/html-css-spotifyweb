@@ -101,7 +101,7 @@ hover
 /* main nav */
 .box-icon-nav:hover {
 
-    box-shadow: 2px 0px 0px green inset;
+    box-shadow: 2px 0px 0px #ADFF2F inset;
     transition: 0.3s;
 }
 
@@ -156,6 +156,11 @@ hover
     color: white;
 }
 
+.nav-bar ul li:hover div {
+
+    display: block;
+}
+
 /* collection */
 .img-box:hover > img {
 
@@ -200,7 +205,7 @@ hover
 
 .music-bar:hover .progressive-bar {
 
-    background-color: #adff2f;
+    background-color: #ADFF2F;
     cursor: pointer;
 }
 
@@ -279,6 +284,21 @@ body {
 .box-icon-nav span {
 
     font-size: 0.75rem;
+}
+
+.selected-page {
+
+    box-shadow: 2px 0px 0px #ADFF2F inset;
+}
+
+.selected-page a img {
+
+    filter: none;
+}
+
+.selected-page a span {
+
+    color: #FFFFFF;
 }
 
 /* playlist */
@@ -390,6 +410,21 @@ body {
 
     color: #797C80;
     font-size: 0.75rem;
+}
+
+.nav-bar li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-bar div {
+
+    background-color: #ADFF2F;
+    width: 30%;
+    height: 2px;
 }
 
 /* collection */
