@@ -23,27 +23,44 @@ Questa applicazione web, riproduce il sito di [Spotify](https://open.spotify.com
             - Playlist create in base ai gusti dell'utente
             - Artisti più popolari
 - **BOTTOM PAGE**
+    - Sezione del brano in ascolto
+        - Immagine del brano
+        - Titolo e autore
+        - Icone per aggiungere il brano ai preferiti
+    - Stato del brano
+        - Bottoni per
+            - Riproduzione casuale dei brani
+            - Skip brano precente
+            - Stop/Avvio
+            - Skip brano successivo
+            - Ripetizione del brano
+    - Controllo dispositivi e volume
+        - Bottoni per
+            - Pagina in dettaglio del brano
+            - Cambiare la riproduzione del brano sui vari dispositivi collegati all'account
+            - Mutare/Riattivare l'audio
+        - Barra per regolare il volume
     
 ## Linguaggi utilizzati
 
-- HTML(struttura della pagina)
-- CSS(stile della pagina)
+- HTML (struttura della pagina)
+- CSS (stile della pagina)
 
 ## Features
 
 - Il sito è in responsive e si adatta ai seguenti dispositivi:
     - mobile
 
-      ![mobile size](readme-img/resize/mobile-size-day-2.png)
+      ![mobile size](readme-img/day3/mobile-size-day-3.png)
     - mobile xl (>=576px)
     
-      ![mobile xl size](readme-img/resize/mobile-xl-size-day-2.png)
+      ![mobile xl size](readme-img/day3/mobile-xl-size-day-3.png)
     - tablet (>=768px)
     
-      ![tablet size](readme-img/resize/tablet-size-day-2.png)
+      ![tablet size](readme-img/day3/tablet-size-day-3.png)
     - desktop (>=992px)
     
-      ![desktop size](readme-img/desktop-size-day-2.png)
+      ![desktop size](readme-img//day3/desktop-size-day-3.png)
 
 
 ## Autori
