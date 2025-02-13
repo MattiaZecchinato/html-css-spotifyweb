@@ -608,4 +608,10 @@ responsive
 
         width: calc((100% - 50px) / 6);
     }
+
+    /* control box */
+    .music-bar-box {
+
+        gap: 30px;
+    }
 }
