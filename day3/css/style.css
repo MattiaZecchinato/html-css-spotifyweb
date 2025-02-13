@@ -192,6 +192,18 @@ hover
     color: #FFFFFF;
 }
 
+/* music bar box */
+.music-bar:hover {
+
+    cursor: pointer;
+}
+
+.music-bar:hover .progressive-bar {
+
+    background-color: #adff2f;
+    cursor: pointer;
+}
+
 /******* 
 body 
 *******/
@@ -511,6 +523,9 @@ body {
     flex-grow: 1;
     height: 4px;
     background-color: #5A5A5A;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .progressive-bar {
@@ -518,6 +533,20 @@ body {
     width: 20%;
     height: 4px;
     background-color: #C1C1C1;
+    border-radius: 20px;
+}
+
+.progressive-ball {
+
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.music-bar:hover .progressive-ball {
+
+    display: block;
 }
 
 /* device box */
