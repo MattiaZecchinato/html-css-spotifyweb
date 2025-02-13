@@ -317,6 +317,11 @@ body {
     padding: 15px 10px;
 }
 
+.bottom-page i {
+
+    font-size: 0.9rem;
+}
+
 /* song name */
 .song-name-box {
 
@@ -364,11 +369,63 @@ body {
     padding-left: 20px;
 }
 
-.btn-song i {
+/* control box */
+.control-box {
 
-    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* flex-grow: 1; */
 }
 
+/* control button box */
+
+.control-btn-box {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.control-btn-box i {
+
+    color: #FFFFFF;
+}
+
+.control-btn-box i:nth-child(3) {
+
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+/* music-bar */
+.music-bar-box {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.music-bar-box p {
+
+    font-size: 0.5rem;
+    color: #FFFFFF;
+}
+
+.music-bar {
+
+    width: 100%;
+    height: 4px;
+    background-color: #5A5A5A;
+}
+
+.progressive-bar {
+
+    width: 20%;
+    height: 4px;
+    background-color: #C1C1C1;
+}
 
 
 /******* 
