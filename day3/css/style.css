@@ -501,6 +501,11 @@ responsive
     /*** bottom page ***/
 
     /* song name */
+    .img-song {
+
+        width: 38px;
+    }
+
     .name-song {
 
         max-width: none;
