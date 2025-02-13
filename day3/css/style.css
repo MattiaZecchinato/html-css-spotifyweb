@@ -1,0 +1,462 @@
+/******* 
+font 
+*******/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Montserrat", serif; */
+
+/* to color svg image --> https://codepen.io/sosuke/pen/Pjoqqp */
+
+/******* 
+reset 
+*******/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+/******* 
+common 
+*******/
+a {
+
+    text-decoration: none;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+h2,
+h4 {
+
+    color: #FFFFFF;
+}
+
+h2 {
+
+    margin-bottom: 5px;
+}
+
+.hidden-element {
+
+    display: none;
+}
+
+.text-uppercase {
+
+    text-transform: uppercase;
+}
+
+/* collection */
+.collection-container {
+
+    margin-bottom: 45px;
+}
+
+.collection-container p {
+
+    color: #797C80;
+    font-size: 0.7rem;
+}
+.album-box {
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.album {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: calc((100% - 10px) / 2);
+    text-align: center;
+}
+
+.album img {
+
+    width: 100%;
+    margin: 20px 0 10px;
+}
+
+.round-img img {
+
+    border-radius: 50%;
+}
+
+/******* 
+body 
+*******/
+body {
+
+    height: 100vh;
+    font-family: "Montserrat", serif;
+}
+
+/*** top page ***/
+.top-page {
+
+    background-color: #10151b;
+    height: calc(100% - 90px);
+    display: flex;
+}
+
+/** left-box **/
+.left-box {
+
+    width: 55px;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: #000000;
+    padding: 5px 0 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.left-box * {
+
+    color: #989898;
+}
+
+.left-box > * {
+
+    padding: 0px 15px;
+}
+
+.left-box > *:nth-child(2) {
+
+    padding: 0;
+}
+
+/* logo */
+.logo-box {
+
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.logo-box img:first-child{
+
+    width: 25px;
+}
+
+/* main nav */
+.box-icon-nav {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.box-icon-nav img {
+
+    width: 25px;
+    filter: invert(44%) sepia(0%) saturate(1344%) hue-rotate(265deg) brightness(97%) contrast(78%);
+}
+
+.box-icon-nav span {
+
+    font-size: 0.75rem;
+}
+
+.box-icon-nav:hover {
+
+    box-shadow: 2px 0px 0px green inset;
+    transition: 0.3s;
+}
+
+/* playlist */
+.box {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.playlist-box p,
+.playlist-box ul a {
+
+    font-size: 0.75rem;
+}
+
+/* user */
+.user-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download-box {
+
+    margin-bottom: 10px;
+}
+
+.download-box img,
+.download-box a {
+
+    width: 15px;
+    height: 15px;
+}
+
+.user-box img,
+.user-box a {
+
+    width: 25px;
+    height: 25px;
+}
+
+.user-box img {
+
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+/** right-box **/
+.right-box {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+}
+
+/* top box */
+.top-box {
+
+    height: 90px;
+    flex-shrink: 0;
+    background-color: rgba(16, 21, 27, 0.7);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.top-box a {
+
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: 0.75rem;
+}
+
+/* bottom box */
+.bottom-box {
+
+    flex-grow: 1;
+    background-color: #151922;
+    padding: 20px;
+}
+
+/* nav bar */
+.nav-bar ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.nav-bar ul a {
+
+    color: #797C80;
+    font-size: 0.75rem;
+}
+
+/* collection */
+.img-box {
+
+    position: relative;
+}
+
+.img-box i {
+
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.img-box:hover > img {
+
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.img-box:hover i.hidden-element {
+
+    display: block;
+}
+
+/*** bottom page ***/
+.bottom-page {
+
+    background-color: #282828;
+    height: 90px;
+}
+/******* 
+responsive 
+*******/
+
+/* small size */
+@media screen and (min-width: 576px) {
+    
+    /* common */
+    .ico-text {
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .box-icon-nav img {
+
+        width: 25px;
+    }
+
+    .left-box .hidden-element {
+
+        display: block;
+    }
+
+    /*** top page ***/
+
+    /** left box **/
+    .left-box {
+
+        width: 230px;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* logo */
+    .logo-box {
+
+        margin-bottom: 30px;
+    }
+
+    .logo-box a:first-child {
+
+        display: none;
+    }
+
+    .logo-box a:last-child {
+
+        display: block;
+    }
+
+    .logo-box a:last-child img {
+
+        width: 130px;
+    }
+
+    /* main nav */
+    .main-nav {
+
+        margin-bottom: 15px;
+    }
+
+    .box-icon-nav {
+
+        gap: 10px;
+    }  
+
+    /* playlist */
+    .box {
+
+        justify-content: space-between;
+    }
+
+    .playlist-box h5 {
+
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .creation-playlist-box {
+
+        margin-bottom: 30px;
+    }
+
+    .creation-playlist-box a {
+
+        padding: 0 10px;
+        background-color: #989898;
+        color: #000000;
+        font-size: 2rem;
+    }
+
+    .playlist-box li {
+
+        margin-bottom: 20px;
+    }
+
+    /* user */
+    .user-container {
+
+        display: block;
+    }
+
+    .user-container p {
+
+        font-size: 0.7rem;
+    }
+
+    .download-box,
+    .user-box {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .user-box {
+
+        margin-top: 10px;
+    }
+
+    .user-box p {
+
+        color: #FFFFFF;
+        font-size: 0.75rem;
+    }
+}
+
+/* medium size */
+@media screen and (min-width: 768px) {
+    
+    /* common */
+    .album {
+
+        width: calc((100% - 30px) / 4);
+    }
+}
+
+/* large size */
+@media screen and (min-width: 992px) {
+
+    /* common */
+    .album {
+
+        width: calc((100% - 50px) / 6);
+    }
+}
