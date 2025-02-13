@@ -312,7 +312,65 @@ body {
 
     background-color: #282828;
     height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
 }
+
+/* song name */
+.song-name-box {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-song {
+
+    width: 28px;
+}
+
+.img-song img {
+
+    width: 100%;
+    display: block;
+}
+
+.name-song {
+
+    max-width: 60px;
+}
+
+.name-song h5 {
+
+    color: #FFFFFF;
+}
+.name-song p ,
+.btn-song i {
+
+    color: #848484;
+}
+
+.name-song p {
+
+    font-size: 0.6rem;
+}
+
+.btn-song {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.btn-song i {
+
+    font-size: 0.9rem;
+}
+
+
+
 /******* 
 responsive 
 *******/
