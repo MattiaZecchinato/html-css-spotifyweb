@@ -520,6 +520,20 @@ responsive
 
         width: calc((100% - 30px) / 4);
     }
+
+    /*** bottom page ***/
+
+    /* song name */
+    .img-song {
+
+        width: 42px;
+    }
+
+    .btn-song {
+
+        flex-direction: row;
+        gap: 15px;
+    }
 }
 
 /* large size */
