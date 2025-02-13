@@ -315,6 +315,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px 10px;
+
+    gap: 20px;
 }
 
 .bottom-page i {
@@ -328,6 +330,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-shrink: 0;
 }
 
 .img-song {
@@ -366,7 +369,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding-left: 20px;
 }
 
 /* control box */
@@ -375,7 +377,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* flex-grow: 1; */
+    align-items: center;
+    width: 40%;
+    justify-self: center;
 }
 
 /* control button box */
@@ -402,9 +406,9 @@ body {
 .music-bar-box {
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 10px;
+    width: 100%;
 }
 
 .music-bar-box p {
@@ -415,7 +419,7 @@ body {
 
 .music-bar {
 
-    width: 100%;
+    flex-grow: 1;
     height: 4px;
     background-color: #5A5A5A;
 }
@@ -425,6 +429,25 @@ body {
     width: 20%;
     height: 4px;
     background-color: #C1C1C1;
+}
+
+/* device box */
+.device-box {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.device-box .music-bar {
+
+    width: 100px;
+}
+
+.device-box i {
+
+    color: #FFFFFF;
 }
 
 
@@ -590,6 +613,7 @@ responsive
 
         flex-direction: row;
         gap: 15px;
+        padding-left: 20px;
     }
 
     /* control box */
@@ -610,6 +634,7 @@ responsive
     }
 
     /* control box */
+
     .music-bar-box {
 
         gap: 30px;
