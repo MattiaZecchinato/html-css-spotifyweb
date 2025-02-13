@@ -591,6 +591,13 @@ responsive
         flex-direction: row;
         gap: 15px;
     }
+
+    /* control box */
+    .music-bar-box {
+
+        gap: 15px;
+    }
+
 }
 
 /* large size */
